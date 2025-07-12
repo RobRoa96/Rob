@@ -1,1 +1,2 @@
-console.log("Robert Roa Portfolio loaded");
+// Placeholder for future enhancements
+console.log("Portfolio loaded.");

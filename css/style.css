@@ -1,0 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+.section {
+  padding: 80px 0;
+}
+.hero {
+  background: linear-gradient(to right, #007bff, #00c2ff);
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.hero .lead {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+}
+footer {
+  background-color: #222;
+  color: #ccc;
+  font-size: 0.9rem;
+}

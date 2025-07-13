@@ -3,70 +3,48 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Robert Roa | Portfolio</title>
+  <title>Robert Roa | Automation & No-Code Specialist</title>
+
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="#">Robert Roa</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero -->
-  <section class="hero d-flex align-items-center text-white text-center">
-    <div class="container">
-      <h1 class="display-4 fw-bold">Hi, I'm Robert Roa</h1>
-      <p class="lead">Automation Specialist | Apps Script Developer | No-Code Builder</p>
-      <a href="#projects" class="btn btn-light mt-3">View My Work</a>
-    </div>
+  <!-- Hero / Landing -->
+  <section class="fullscreen hero">
+    <h1 class="fw-bold">Robert Roa</h1>
+    <p class="lead">Automation Specialist • Apps Script Developer • No-Code Builder</p>
+    <a href="#about" class="btn btn-primary mt-4">Explore My Work</a>
   </section>
 
   <!-- About -->
-  <section id="about" class="section bg-light">
-    <div class="container text-center">
-      <h2 class="mb-4">About Me</h2>
-      <p class="lead mx-auto" style="max-width: 700px;">
-        I build automation tools using Google Apps Script, Zapier, Make, and no-code platforms. Whether you're a solopreneur or SME, I’ll help you save time, reduce manual work, and improve your workflow.
+  <section id="about" class="section bg-light text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-4">About Me</h2>
+      <p class="mx-auto" style="max-width: 700px;">
+        I help individuals and businesses automate workflows using Google Apps Script, Zapier, Make, and no-code tools.
       </p>
     </div>
   </section>
 
   <!-- Projects -->
-  <section id="projects" class="section">
+  <section id="projects" class="section text-center">
     <div class="container">
-      <h2 class="text-center mb-5">Featured Projects</h2>
+      <h2 class="fw-bold mb-5">Projects</h2>
       <div class="row g-4">
         <div class="col-md-6">
-          <div class="card shadow-sm h-100">
-            <div class="card-body">
-              <h5 class="card-title">Inventory System</h5>
-              <p class="card-text">Track stock levels, set alerts, and generate reports using Google Sheets and Apps Script.</p>
-              <a href="#" class="btn btn-outline-primary btn-sm">View Demo</a>
-            </div>
+          <div class="p-4 border rounded shadow-sm h-100">
+            <h5>Inventory System</h5>
+            <p>Track stock and generate reports via Google Sheets & Apps Script.</p>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card shadow-sm h-100">
-            <div class="card-body">
-              <h5 class="card-title">Lead Automation Tool</h5>
-              <p class="card-text">Automatically send custom PDFs to new leads via Google Forms and Gmail.</p>
-              <a href="#" class="btn btn-outline-primary btn-sm">Try Form</a>
-            </div>
+          <div class="p-4 border rounded shadow-sm h-100">
+            <h5>Lead Automation Tool</h5>
+            <p>Auto-send custom PDFs through Google Forms + Gmail integration.</p>
           </div>
         </div>
       </div>
@@ -74,26 +52,26 @@
   </section>
 
   <!-- Services -->
-  <section id="services" class="section bg-light">
-    <div class="container text-center">
-      <h2 class="mb-5">What I Offer</h2>
+  <section id="services" class="section bg-light text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-5">What I Offer</h2>
       <div class="row g-4">
         <div class="col-md-4">
           <div class="p-4 border rounded shadow-sm h-100">
-            <h5>⚙ Google Workspace Automation</h5>
-            <p>Create workflows using Apps Script and Google Sheets.</p>
+            <h5>Google Workspace Automation</h5>
+            <p>Automate reports, processes, and documents via Apps Script.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="p-4 border rounded shadow-sm h-100">
-            <h5>🔌 Zapier / Make Integration</h5>
-            <p>Connect tools to reduce repetitive work.</p>
+            <h5>Zapier / Make Integration</h5>
+            <p>Link apps and eliminate repetitive work.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="p-4 border rounded shadow-sm h-100">
-            <h5>📱 No-Code App Building</h5>
-            <p>Develop fast, functional tools using Glide, Airtable, and GoHighLevel.</p>
+            <h5>No-Code App Building</h5>
+            <p>Build internal tools using Glide, Airtable, GoHighLevel, and more.</p>
           </div>
         </div>
       </div>
@@ -101,16 +79,16 @@
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="section">
-    <div class="container text-center">
-      <h2 class="mb-4">Contact Me</h2>
-      <p class="lead">Let's discuss your project or automation idea.</p>
-      <a href="mailto:your@email.com" class="btn btn-primary btn-lg">Send Email</a>
+  <section id="contact" class="section text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-4">Contact</h2>
+      <p>Let's discuss how we can automate your business today.</p>
+      <a href="mailto:your@email.com" class="btn btn-primary">Send Me a Message</a>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
+  <footer class="text-center">
     <small>© 2025 Robert Roa. All rights reserved.</small>
   </footer>
 

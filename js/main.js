@@ -1,3 +1,2 @@
-// You can add any future animations or JS effects here.
-
-console.log("Portfolio Loaded Successfully");
+// Placeholder for any future JS
+console.log('Portfolio site loaded.');
